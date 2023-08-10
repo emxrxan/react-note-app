@@ -1,0 +1,27 @@
+.modalInhalt{
+    width: 65%;
+    height: 25rem;
+    overflow-y: scroll;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    background-color: rgb(250, 235, 215);
+    padding: 2rem;
+}
+
+.modalInhalt::-webkit-scrollbar{
+    width: 10px;
+}
+
+.modalInhalt::-webkit-scrollbar-thumb{
+    width: 100%;
+    height: 5rem;
+    background-color:  rgb(239, 159, 55);
+}
+
+
+@media (max-width:650px) {
+    .modalInhalt{
+        width: 80%;
+        height: 30rem;
+    }
+}

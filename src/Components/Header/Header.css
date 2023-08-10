@@ -1,0 +1,11 @@
+.header-component{
+    background-color: chocolate;
+    height: 20rem;
+}
+
+@media (max-width: 650px) {
+
+    .header-component{
+        height: 35rem;
+    }
+}

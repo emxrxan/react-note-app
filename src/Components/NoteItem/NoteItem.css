@@ -1,0 +1,29 @@
+.noteItem-Container{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 5px double black;
+    background-color: antiquewhite;
+}
+
+.noteItem-date{font-size: 1.2rem;}
+
+.noteItem-title{font-size: 1.4rem; font-weight: bold;}
+
+.noteItem-action{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.noteItem-action:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+    .noteItem-Container{
+        width: 80%;
+    }
+}
